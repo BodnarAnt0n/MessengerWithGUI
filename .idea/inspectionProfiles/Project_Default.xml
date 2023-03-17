@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="v-on:click" />
+            <item index="1" class="java.lang.String" itemvalue="v-if" />
+            <item index="2" class="java.lang.String" itemvalue="v-for" />
+            <item index="3" class="java.lang.String" itemvalue="v-on:click.capture" />
+            <item index="4" class="java.lang.String" itemvalue="v-on:click.self" />
+            <item index="5" class="java.lang.String" itemvalue="v-model" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="telebot" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="news.models.News.objects" />
+          <option value="news.models.Comment.objects" />
+          <option value="app_users.models.Profile.*" />
+          <option value="news.views.BusinessUserMixin.request" />
+          <option value="news.views.CreateNewsMixin.request" />
+          <option value="news.views.UpdateNewsMixin.*" />
+          <option value="thing.views.ViewThingMixin.*" />
+          <option value="news.models.Tag.*" />
+          <option value="main.settings.*" />
+          <option value="warehouse.models.Unit.*" />
+          <option value="warehouse.models.Sector.*" />
+          <option value="contractor.models.Contractor.*" />
+          <option value="warehouse.models.ProcessReceived.*" />
+          <option value="warehouse.models.ProcessRelease.*" />
+          <option value="warehouse.models.Product.*" />
+          <option value="contractor.models.Department.*" />
+          <option value="warehouse.views.ProductRelease.*" />
+          <option value="warehouse.views.EmployeeAccessMixin.*" />
+          <option value="warehouse.models.Warehouse.*" />
+          <option value="blog.models.Publication.*" />
+          <option value="user.models.Profile.*" />
+          <option value="loyalty.models.Shop.objects" />
+          <option value="loyalty.models.Promotion.objects" />
+          <option value="loyalty.models.Order.objects" />
+          <option value="basic.models.Hospital.*" />
+          <option value="basic.models.Department.*" />
+          <option value="basic.models.Employee.*" />
+          <option value="basic.models.Patient.*" />
+          <option value="thing.models.Thing.*" />
+          <option value="shop.models.Shop.*" />
+          <option value="shop.models.Product.*" />
+          <option value="shop.models.BasketItem.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
