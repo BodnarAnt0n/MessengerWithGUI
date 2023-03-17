@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_Form(object):
+class Ui_SignUp(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(400, 421)
@@ -135,7 +135,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "Регистрация"))
         self.loginLabel.setText(_translate("Form", "Введите логин:"))
         self.passwordLabel.setText(_translate("Form", "Введите пароль:"))
         self.signUpButton.setText(_translate("Form", "Зарегистрироваться"))
